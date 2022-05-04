@@ -6,14 +6,39 @@ using System.Threading.Tasks;
 
 namespace GestaoTarefas.WinApp
 {
+    [Serializable]
     public class Contato
     {
+        public Contato()
+        {
+
+        }
+
+
+        public Contato(int numero, string n, string e, string t, string emp, string c) : this()
+        {
+            Numero = numero;
+            Nome = n;
+            Email = e;
+            Telefone = t;
+            Empresa = emp;
+            Cargo = c;
+
+        }
+
+        public int Numero { get; set; } 
         public string Nome { get; set; }    
         public string Email { get; set; }   
         public string Telefone { get; set; }
         public string Empresa   { get; set; }
         public string Cargo { get; set; }
 
+        public override string ToString()
+        {
+            return $"Contato Número: {Numero}, Nome: {Nome}, Email: {Email}, Telefone: {Telefone}, Empresa {Empresa}, Cargo {Cargo}.";
+        }
+
         
+
     }
 }

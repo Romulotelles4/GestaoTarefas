@@ -166,6 +166,7 @@
             this.Name = "CadastroContatos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CadastroContatos";
+            this.Load += new System.EventHandler(this.CadastroContatos_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

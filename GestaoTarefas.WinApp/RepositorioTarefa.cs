@@ -39,6 +39,7 @@ namespace GestaoTarefas.WinApp
        
         public void Editar(Tarefa tarefa)
         {
+            
             foreach (var item in tarefas)
             {
                 if (item.Numero == tarefa.Numero)

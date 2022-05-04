@@ -20,11 +20,14 @@ namespace GestaoTarefas.WinApp
 
         public Contato Contato
         {
-            get { return contato; }
+            get
+            {
+                return contato;
+            }
 
             set 
             { 
-                contato = value; 
+                contato = value;
                 textNome.Text = contato.Nome;
                 textEmail.Text = contato.Email;
                 textTelefone.Text = contato.Telefone;
@@ -35,7 +38,15 @@ namespace GestaoTarefas.WinApp
         private void btnGravar_Click(object sender, EventArgs e)
         {
             contato.Nome = textNome.Text;
+            contato.Email = textEmail.Text;
+            contato.Telefone = textTelefone.Text;
+            contato.Empresa = textEmpresa.Text;
+            contato.Cargo = textCargo.Text;
         }
 
+        private void CadastroContatos_Load(object sender, EventArgs e)
+        {
+            //contato = new Contato();
+        }
     }
 }

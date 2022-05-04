@@ -37,5 +37,10 @@ namespace GestaoTarefas.WinApp
         {
             tarefa.Titulo = txtTitulo.Text;
         }
+
+        private void CadastroTarefas_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

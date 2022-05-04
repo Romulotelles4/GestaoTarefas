@@ -39,7 +39,7 @@
             // 
             this.btnTarefa.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.btnTarefa.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnTarefa.Location = new System.Drawing.Point(18, 15);
+            this.btnTarefa.Location = new System.Drawing.Point(38, 139);
             this.btnTarefa.Name = "btnTarefa";
             this.btnTarefa.Size = new System.Drawing.Size(177, 68);
             this.btnTarefa.TabIndex = 0;
@@ -50,7 +50,7 @@
             // btnContatos
             // 
             this.btnContatos.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnContatos.Location = new System.Drawing.Point(212, 15);
+            this.btnContatos.Location = new System.Drawing.Point(247, 139);
             this.btnContatos.Name = "btnContatos";
             this.btnContatos.Size = new System.Drawing.Size(187, 68);
             this.btnContatos.TabIndex = 1;
@@ -61,7 +61,7 @@
             // btnCompromissos
             // 
             this.btnCompromissos.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnCompromissos.Location = new System.Drawing.Point(419, 15);
+            this.btnCompromissos.Location = new System.Drawing.Point(464, 139);
             this.btnCompromissos.Name = "btnCompromissos";
             this.btnCompromissos.Size = new System.Drawing.Size(190, 68);
             this.btnCompromissos.TabIndex = 2;
@@ -75,21 +75,22 @@
             this.panel1.Controls.Add(this.btnTarefa);
             this.panel1.Controls.Add(this.btnCompromissos);
             this.panel1.Controls.Add(this.btnContatos);
-            this.panel1.Location = new System.Drawing.Point(-6, 115);
+            this.panel1.Location = new System.Drawing.Point(-26, -37);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(815, 100);
+            this.panel1.Size = new System.Drawing.Size(837, 358);
             this.panel1.TabIndex = 3;
             // 
             // TelaPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(622, 345);
+            this.ClientSize = new System.Drawing.Size(640, 284);
             this.Controls.Add(this.panel1);
             this.Name = "TelaPrincipal";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TelaPrincipal";
+            this.Load += new System.EventHandler(this.TelaPrincipal_Load);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 

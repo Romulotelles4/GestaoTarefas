@@ -57,7 +57,7 @@
             // txtNumero
             // 
             this.txtNumero.Enabled = false;
-            this.txtNumero.Location = new System.Drawing.Point(72, 17);
+            this.txtNumero.Location = new System.Drawing.Point(72, 18);
             this.txtNumero.Name = "txtNumero";
             this.txtNumero.Size = new System.Drawing.Size(61, 23);
             this.txtNumero.TabIndex = 2;
@@ -95,10 +95,10 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(436, 211);
+            this.Controls.Add(this.txtNumero);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnGravar);
             this.Controls.Add(this.txtTitulo);
-            this.Controls.Add(this.txtNumero);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
@@ -109,6 +109,7 @@
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro de Tarefas";
+            this.Load += new System.EventHandler(this.CadastroTarefas_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

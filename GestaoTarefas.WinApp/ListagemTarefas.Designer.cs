@@ -38,7 +38,7 @@
             // 
             // btnInserir
             // 
-            this.btnInserir.Location = new System.Drawing.Point(15, 60);
+            this.btnInserir.Location = new System.Drawing.Point(12, 12);
             this.btnInserir.Name = "btnInserir";
             this.btnInserir.Size = new System.Drawing.Size(142, 49);
             this.btnInserir.TabIndex = 0;
@@ -48,7 +48,7 @@
             // 
             // btnEditar
             // 
-            this.btnEditar.Location = new System.Drawing.Point(15, 115);
+            this.btnEditar.Location = new System.Drawing.Point(12, 67);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(142, 50);
             this.btnEditar.TabIndex = 1;
@@ -58,7 +58,7 @@
             // 
             // btnExcluir
             // 
-            this.btnExcluir.Location = new System.Drawing.Point(15, 171);
+            this.btnExcluir.Location = new System.Drawing.Point(12, 123);
             this.btnExcluir.Name = "btnExcluir";
             this.btnExcluir.Size = new System.Drawing.Size(142, 51);
             this.btnExcluir.TabIndex = 2;
@@ -68,7 +68,7 @@
             // 
             // btnCadastrarItens
             // 
-            this.btnCadastrarItens.Location = new System.Drawing.Point(15, 270);
+            this.btnCadastrarItens.Location = new System.Drawing.Point(12, 222);
             this.btnCadastrarItens.Name = "btnCadastrarItens";
             this.btnCadastrarItens.Size = new System.Drawing.Size(142, 51);
             this.btnCadastrarItens.TabIndex = 3;
@@ -78,7 +78,7 @@
             // 
             // btnAtualizarItens
             // 
-            this.btnAtualizarItens.Location = new System.Drawing.Point(15, 327);
+            this.btnAtualizarItens.Location = new System.Drawing.Point(12, 279);
             this.btnAtualizarItens.Name = "btnAtualizarItens";
             this.btnAtualizarItens.Size = new System.Drawing.Size(142, 52);
             this.btnAtualizarItens.TabIndex = 4;
@@ -90,7 +90,7 @@
             // 
             this.listTarefas.FormattingEnabled = true;
             this.listTarefas.ItemHeight = 15;
-            this.listTarefas.Location = new System.Drawing.Point(172, 60);
+            this.listTarefas.Location = new System.Drawing.Point(172, 12);
             this.listTarefas.Name = "listTarefas";
             this.listTarefas.Size = new System.Drawing.Size(651, 319);
             this.listTarefas.TabIndex = 5;
@@ -99,7 +99,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(835, 389);
+            this.ClientSize = new System.Drawing.Size(835, 341);
             this.Controls.Add(this.listTarefas);
             this.Controls.Add(this.btnAtualizarItens);
             this.Controls.Add(this.btnCadastrarItens);

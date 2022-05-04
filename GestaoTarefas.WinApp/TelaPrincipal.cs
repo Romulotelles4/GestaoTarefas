@@ -38,5 +38,10 @@ namespace GestaoTarefas.WinApp
 
             novaListagemTarefas.ShowDialog();
         }
+
+        private void TelaPrincipal_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

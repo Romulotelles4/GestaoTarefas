@@ -32,39 +32,40 @@
             this.btnExcluir = new System.Windows.Forms.Button();
             this.btnEditar = new System.Windows.Forms.Button();
             this.btnInserir = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // listContatos
             // 
             this.listContatos.FormattingEnabled = true;
             this.listContatos.ItemHeight = 15;
-            this.listContatos.Location = new System.Drawing.Point(173, 62);
+            this.listContatos.Location = new System.Drawing.Point(173, 12);
             this.listContatos.Name = "listContatos";
             this.listContatos.Size = new System.Drawing.Size(651, 319);
             this.listContatos.TabIndex = 11;
             // 
             // btnExcluir
             // 
-            this.btnExcluir.Location = new System.Drawing.Point(12, 173);
+            this.btnExcluir.Location = new System.Drawing.Point(12, 123);
             this.btnExcluir.Name = "btnExcluir";
             this.btnExcluir.Size = new System.Drawing.Size(142, 51);
             this.btnExcluir.TabIndex = 8;
             this.btnExcluir.Text = "Excluir Contato";
             this.btnExcluir.UseVisualStyleBackColor = true;
+            this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
             // btnEditar
             // 
-            this.btnEditar.Location = new System.Drawing.Point(12, 117);
+            this.btnEditar.Location = new System.Drawing.Point(12, 67);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(142, 50);
             this.btnEditar.TabIndex = 7;
             this.btnEditar.Text = "Editar Contato";
             this.btnEditar.UseVisualStyleBackColor = true;
+            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
             // 
             // btnInserir
             // 
-            this.btnInserir.Location = new System.Drawing.Point(12, 62);
+            this.btnInserir.Location = new System.Drawing.Point(12, 12);
             this.btnInserir.Name = "btnInserir";
             this.btnInserir.Size = new System.Drawing.Size(142, 49);
             this.btnInserir.TabIndex = 6;
@@ -72,21 +73,11 @@
             this.btnInserir.UseVisualStyleBackColor = true;
             this.btnInserir.Click += new System.EventHandler(this.btnInserir_Click);
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(12, 331);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(142, 50);
-            this.button1.TabIndex = 12;
-            this.button1.Text = "Vizualizar Contatos";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // ListagemContatos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(836, 393);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(836, 343);
             this.Controls.Add(this.listContatos);
             this.Controls.Add(this.btnExcluir);
             this.Controls.Add(this.btnEditar);
@@ -105,6 +96,5 @@
         private System.Windows.Forms.Button btnExcluir;
         private System.Windows.Forms.Button btnEditar;
         private System.Windows.Forms.Button btnInserir;
-        private System.Windows.Forms.Button button1;
     }
 }
