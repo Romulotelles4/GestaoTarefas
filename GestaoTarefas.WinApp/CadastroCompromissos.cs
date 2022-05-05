@@ -27,7 +27,6 @@ namespace GestaoTarefas.WinApp
                 compromisso = value;
                 textAssunto.Text = compromisso.Assunto;
                 textLocal.Text = compromisso.Local;
-                //textData.Text = compromisso.Data.;
                 textHorarioInicio.Text = compromisso.HoraInicio.ToString();
                 textHorariotermino.Text = compromisso.HoraTermino.ToString();   
 
